@@ -314,6 +314,10 @@ footer > div > p > a {
   .align-items-center {
     justify-content: start;
   }
+  .footer-container {
+    width: 100%;
+  }
+
   /*etusivun*/
   aside.right {
     display: block;
