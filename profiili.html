@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <title>Kotiteatteri | Profiili</title>
+  </head>
+  <body>
+    <header>
+      <div class="row align-items-center">
+        <div class="dropdown nav-menu mobile">
+          <button
+            class="btn btn-secondary dropdown-toggle"
+            type="button"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="25"
+              height="25"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+              />
+            </svg>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="etusivu.html">Etusivu</a></li>
+            <li><a class="dropdown-item" href="palvelut.html">Palvelut</a></li>
+            <li><a class="dropdown-item" href="tiedot.html">Tiedot</a></li>
+            <li><a class="dropdown-item" href="profiili.html">Profiili</a></li>
+            <li><a class="dropdown-item" href="#">Työpaikat</a></li>
+          </ul>
+        </div>
+        <h1>Kotiteatteri</h1>
+        <ul class="nav-menu desktop">
+          <li><a href="etusivu.html">Etusivu</a></li>
+          <li><a href="palvelut.html">Palvelut</a></li>
+          <li><a href="tiedot.html">Tiedot</a></li>
+          <li class="open-page"><a href="profiili.html">Profiili</a></li>
+          <li><a href="#">Työpaikat</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="main-container profile">
+      <main>
+        <div class="section-container profile">
+          <div class="text-container">
+            <p>
+              <label for="firstname">Etunimi:</label>
+              <input
+                type="text"
+                id="firstname"
+                name="kayttajan_etunimi"
+                value="Venla"
+                disabled
+              />
+            </p>
+            <p>
+              <label for="lastname">Sukunimi:</label>
+              <input
+                type="text"
+                id="lastname"
+                name="kayttajan_sukunimi"
+                value="Nuutinen"
+                disabled
+              />
+            </p>
+            <p>
+              <label for="pass">Salasana:</label>
+              <input
+                type="password"
+                id="pass"
+                name="kayttajan_salasana"
+                value="Kotiteatteri123"
+                disabled
+              />
+            </p>
+            <p>
+              <label for="useremail">Sähköposti:</label>
+              <input
+                type="email"
+                id="useremail"
+                name="kayttajan_sahkoposti"
+                value="ah3200@student.jamk.fi"
+                disabled
+              />
+            </p>
+            <p>
+              <label for="puhelinnro">Puhelinnro:</label>
+              <input
+                type="tel"
+                id="puhelinnro"
+                name="kayttajan_puhelinnro"
+                value="040 12345678"
+                disabled
+              />
+            </p>
+            <p>
+              <label for="birthdate">Syntymäpv:</label>
+              <input
+                type="date"
+                id="birthdate"
+                name="kayttaja_syntymapaiva"
+                value="2005-06-22"
+                disabled
+              />
+            </p>
+            <p class="button">
+              <button class="change-btn">Muuta</button>
+              <button class="save-btn" disabled>Tallenna</button>
+            </p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div>
+          <h3>Kotiteatteri</h3>
+          <p>
+            Kotiteatteri on perustettu vuonna 2017. Se on aikojen myötä kasvanut
+          </p>
+          <p>
+            suureksi yhteisöksi. Kotiteatterissa on esitelty valtavasti
+            alkuperäisiä
+          </p>
+          <p>
+            teoksia. On koettu iloa, pelkoa ja suruutta. Tervetuloa meidän
+            teatteriin!
+          </p>
+        </div>
+        <div>
+          <p>+358 40 123 45678</p>
+          <p><a href="#">asiakaspalvelu@kotiteatteri.fi</a></p>
+          <p>Porrastie 12, 40640 Jyväskylä</p>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
