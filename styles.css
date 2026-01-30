@@ -92,7 +92,8 @@ main.info {
 }
 
 .main-container.info,
-.main-container.profile {
+.main-container.profile,
+.main-container.movie {
   display: block;
 }
 
