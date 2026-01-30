@@ -175,6 +175,10 @@ aside a {
   width: 20px;
 }
 
+.item-frame-text {
+  font-size: calc(1.275rem + 0.3vw);
+}
+
 .text-container {
   display: inline-block;
   padding: 1em;
@@ -186,6 +190,11 @@ aside a {
 
 .text-container.info {
   width: 100%;
+}
+
+.text-container.info a {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: underline;
 }
 
 /* Elokuvan otsikon containerin layout */
